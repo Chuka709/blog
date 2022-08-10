@@ -1,5 +1,5 @@
 import { Navbar, Nav } from "react-bootstrap";
-export default () => {
+const MyNavbar = () => {
   return (
     <Navbar className="fj-navbar fj-nav-base" bg="transparent" expand="lg">
       <Navbar.Brand className="fj-navbar-brand">
@@ -16,3 +16,4 @@ export default () => {
     </Navbar>
   );
 };
+export default MyNavbar;
